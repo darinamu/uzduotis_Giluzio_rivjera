@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'EkMuktaExtraBold';
+    src: url('../fonts/EkMukta-ExtraBold.eot');
+    src: url('../fonts/EkMukta-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EkMukta-ExtraBold.woff2') format('woff2'),
+        url('../fonts/EkMukta-ExtraBold.woff') format('woff'),
+        url('../fonts/EkMukta-ExtraBold.ttf') format('truetype'),
+        url('../fonts/EkMukta-ExtraBold.svg#EkMukta-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EkMuktaBold';
+    src: url('../fonts/EkMukta-Bold.eot');
+    src: url('../fonts/EkMukta-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EkMukta-Bold.woff2') format('woff2'),
+        url('../fonts/EkMukta-Bold.woff') format('woff'),
+        url('../fonts/EkMukta-Bold.ttf') format('truetype'),
+        url('../fonts/EkMukta-Bold.svg#EkMukta-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EkMuktaMedium';
+    src: url('../fonts/EkMukta-Medium.eot');
+    src: url('../fonts/EkMukta-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EkMukta-Medium.woff2') format('woff2'),
+        url('../fonts/EkMukta-Medium.woff') format('woff'),
+        url('../fonts/EkMukta-Medium.ttf') format('truetype'),
+        url('../fonts/EkMukta-Medium.svg#EkMukta-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EkMuktaRegular';
+    src: url('../fonts/EkMukta-Regular.eot');
+    src: url('../fonts/EkMukta-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EkMukta-Regular.woff2') format('woff2'),
+        url('../fonts/EkMukta-Regular.woff') format('woff'),
+        url('../fonts/EkMukta-Regular.ttf') format('truetype'),
+        url('../fonts/EkMukta-Regular.svg#EkMukta-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EkMuktaLight';
+    src: url('../fonts/EkMukta-Light.eot');
+    src: url('../fonts/EkMukta-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EkMukta-Light.woff2') format('woff2'),
+        url('../fonts/EkMukta-Light.woff') format('woff'),
+        url('../fonts/EkMukta-Light.ttf') format('truetype'),
+        url('../fonts/EkMukta-Light.svg#EkMukta-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EkMuktaSemiBold';
+    src: url('../fonts/EkMukta-SemiBold.eot');
+    src: url('../fonts/EkMukta-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EkMukta-SemiBold.woff2') format('woff2'),
+        url('../fonts/EkMukta-SemiBold.woff') format('woff'),
+        url('../fonts/EkMukta-SemiBold.ttf') format('truetype'),
+        url('../fonts/EkMukta-SemiBold.svg#EkMukta-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EkMuktaExtraLight';
+    src: url('../fonts/EkMukta-ExtraLight.eot');
+    src: url('../fonts/EkMukta-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EkMukta-ExtraLight.woff2') format('woff2'),
+        url('../fonts/EkMukta-ExtraLight.woff') format('woff'),
+        url('../fonts/EkMukta-ExtraLight.ttf') format('truetype'),
+        url('../fonts/EkMukta-ExtraLight.svg#EkMukta-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.56) 0%, rgba(0, 0, 0, 0) 70%), url(../images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.logo, .logo2, .wave {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    margin-top: 80px;
+    width: 295px;
+    height: 140px;
+}
+
+.main-info {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    bottom: 158px;
+}
+
+.title {
+    font-size: 60px;
+    font-family: "EkMuktaMedium";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.sub-title {
+    font-size: 28px;
+    font-family: "EkMuktaRegular";
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+svg {
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+#start-fancybox:hover > path {
+    fill: rgb(236, 221, 200);
+}
+
+text.button-text {
+    font-size: 16px;
+    font-family: "EkMuktaMedium";
+    fill: rgb(72, 39, 29);
+}
+
+.fancybox__container {
+    --fancybox-bg: rgba(221, 202, 176, 0.502);
+}
+
+.fancybox__content {
+    padding: 55px 155px 85px !important;
+}
+
+div#hidden-content {
+    background-color: #ddcab0;
+}
+
+p.modal-title, .modal-title-name {
+    color: rgb(72, 39, 29);
+    text-align: center;
+}
+
+p.modal-title {
+    font-family: "EkMuktaRegular";
+    font-size: 17px;
+}
+
+span.modal-title-name {
+    font-family: "EkMuktaSemiBold";
+    text-transform: uppercase;
+    font-size: 26px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.person-name, .person-position {
+    color: rgb(72, 39, 29);
+    text-align: center;
+}
+
+.person-name {
+    font-size: 22px;
+    font-family: "EkMuktaSemiBold";
+}
+
+.person-position {
+    font-size: 12px;
+    font-family: "EkMuktaRegular";
+    display: block;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.phone, .email {
+    display: flex;
+    align-items: center;
+}
+.phone-number, .email-address {
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "EkMuktaRegular";
+    color: rgb(72, 39, 29);
+}
+.phone-number:hover, .email-address:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.fancybox__content>.carousel__button.is-close {
+    top: 20px !important;
+    right: 20px !important;
+}
+
+.close-btn:hover {
+    filter: brightness(0) saturate(100%) invert(15%) sepia(37%) saturate(801%) hue-rotate(329deg) brightness(97%) contrast(92%);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group.form-btn {
+    margin-top: 44px;
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+    background-color: rgb(72, 39, 29);
+    width: 203px;
+    height: 69px;
+    border-radius: 34.5px;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: "EkMuktaMedium";
+    color: rgb(221, 202, 176);
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit:hover {
+    background-color: rgb(89, 54, 43);
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"]
+{
+    border-color: #bfa993;
+    border-top: none; 
+    border-left: none;
+    border-right: none;
+    background-color: #ddcab0;
+    width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus
+{
+    outline: none !important;
+    border-color: #8f7563;
+    background: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    box-shadow: 0 0 0 30px #ddcab0 inset !important;
+}
+
+label, span.wpcf7-list-item-label {
+    font-size: 16px;
+    font-family: "EkMuktaRegular";
+    color: rgb(72, 39, 29); 
+}
+
+span.wpcf7-list-item {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -o-appearance:none;
+    appearance:none;
+    background-color: #ddcab0;
+    outline: 1px solid #bfa993;
+    margin-right: 12px;
+}
+
+input[type="checkbox"]:checked {
+    background-image: url("../icons/check.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 10px 9px; 
+}
+
+input[type="checkbox"]:focus {
+    outline: 1px solid #bfa993 !important;
+}
+
+input[type="checkbox"]:checked {
+    outline: 1px solid #8f7563 !important;
+}
+
+span.wpcf7-list-item label {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+span.wpcf7-list-item input {
+    vertical-align: middle;
+}
+
+span.wpcf7-list-item label span {
+    vertical-align: middle;
+}
+
+label.form-checkboxes .checkbox-662 {
+    padding-bottom: 16px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .main-info {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .logo img {
+        margin-top: 50px;
+        width: 265px;
+        height: 110px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .sub-title {
+        font-size: 19px;
+    }
+    svg {
+        transform: scale(0.7);
+    }
+    text.button-text {
+        font-size: 11px;
+    }
+    .fancybox__content {
+        padding: 55px 105px 85px !important;
+    }
+    .contacts {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    input.wpcf7-form-control.has-spinner.wpcf7-submit {
+        width: 145px;
+        height: 49px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .fancybox__content {
+        padding: 39px 50px 60px !important;
+    }
+}
