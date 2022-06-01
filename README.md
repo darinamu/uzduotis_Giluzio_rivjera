@@ -1,1 +1,4 @@
-# uzduotis_Giluzio_rivjera
+- Responsive web'as pagal dizaino šabloną;
+- Turinio atsiradimo animacijos su GSAP;
+- Formos validacija su PHP ir užpildytų anketų kaupimas duomenų bazėje;
+- WP užmovimas, formų plugino įdiegimas.
